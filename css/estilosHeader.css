@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +13,7 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    background-color: rgba(224, 185, 101, 0.979);
+    background-color: rgb(254,189,27);
 }
 
 .navegacionheader ul {
@@ -29,11 +30,14 @@ header {
     font-size: 25px;
     color: black;
     transition: 0.5s;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
 }
 
 .navegacionheader a:hover {
     background-color: bisque;
-    padding: 10px;
 }
 
 .sesionCarrito {
@@ -51,18 +55,22 @@ header {
     text-decoration: none;
     background-color: bisque;
     transition: 0.5s;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
 }
 
 .sesionCarrito .iniciarSesion:hover {
     background-color: black;
-    color: bisque;
+    color: rgb(254,189,27);
 }
 
 .fa-user {
     font-size: 20px;
     margin-left: 10px;
+    color: black;
 }
 
 .fa-cart-shopping {
-    font-size: 20px;
+    font-size: 25px;
+    color: black;
 }
