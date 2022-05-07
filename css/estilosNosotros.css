@@ -1,0 +1,74 @@
+/*-----------Estilos de Nosotros----------*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+    background-image: url(../img/fondo_all.jpeg);
+    background-size: cover;
+}
+
+.carousel{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.opaco{
+    position: absolute;
+    background-color:black;
+    width: 60%;
+    height:100%;
+    opacity: 0.6;
+}
+
+.datos-empresa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.datos-empresa1{
+    width: 50%;
+    height: 400px;
+}
+.datos-empresa2{
+    
+    width: 30%;
+    margin-left:50px ;
+    padding-top:5%;
+}
+
+.cotenido-direccion1{
+    font-size: 40px;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+.cotenido-direccion{
+    font-size: 25px;
+}
+
+.redes{
+    text-align: right;
+}
+.redes a{
+    text-decoration: none;
+}
+
+.redes .fa-brands,.redes .fa-solid{
+    font-size: 80px;
+    margin: 0 10px 10px 20px;
+    color: black;
+}
+.redes .fa-facebook:hover{
+    color: #0E8CF1;
+}
+.redes .fa-whatsapp:hover{
+    color: #0DC043;
+}
+.redes .fa-envelope:hover{
+    color: red;
+}
+
+
+
+
+
+
