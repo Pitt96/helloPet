@@ -6,3 +6,63 @@
 
 /* ESTILOS PARA EL HEADER */
 
+header {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgba(224, 185, 101, 0.979);
+}
+
+.navegacion ul {
+    display: flex;
+}
+
+.navegacion li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+}
+
+.navegacion a:hover {
+    background-color: bisque;
+    padding: 10px;
+}
+
+.sesionCarrito {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: space-around;
+}
+
+.sesionCarrito .iniciarSesion {
+    /* border: 1px solid green; */
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: bisque;
+    transition: 0.5s;
+}
+
+.sesionCarrito .iniciarSesion:hover {
+    background-color: black;
+    color: bisque;
+}
+
+.fa-user {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.fa-cart-shopping {
+    font-size: 20px;
+}
