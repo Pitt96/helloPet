@@ -4,4 +4,32 @@
     box-sizing: border-box;
 }
 
+/* ESTILOS DE LA SECCION BANNER */
+
+.contenedorBanner {
+    width: 100%;
+}
+
+.contenedorBanner img {
+    width: 100%;
+}
+
+/* ESTILOS PARA ULTIMOS PRODUCTOS */
+
+.ultimosProductos {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.tituloPrincipal {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid green;
+}
+
+.seccionProductos
+
+
+
 
