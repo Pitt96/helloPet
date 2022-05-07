@@ -1,0 +1,88 @@
+
+/*------------Estilos del footer------------*/
+footer{
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    width: 100%;
+}
+.container-footer{
+    width: 65%;
+    margin: 0 auto;
+}
+.footer-primero{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.navegacion{
+    padding-right: 10%;
+}
+.descripcion h3,.navegacion h3{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #737373;
+    transition: all 0.5s;
+}
+.nav ul li a:hover{
+    font-weight: bold;
+    color: #3366cc;
+}
+hr{
+    width: 100%;
+    color: #737373;
+    margin: 0 auto;
+}
+.footer-segundo{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-segundo p{
+    text-align: left;
+    font-size:12px;
+}
+.footer-segundo .social-icons{
+    text-align: right;
+    display: flex;
+
+}
+
+.social-icons li{
+    list-style: none;
+    margin-left: 30px;
+    margin-bottom: 4px;
+}
+.social-icons a{
+    text-decoration: none;
+    background-color: #33353d;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.social-icons a:hover{
+    background-color: #818a91;
+    color: #33353d;
+}
+
+
+
