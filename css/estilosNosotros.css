@@ -18,6 +18,20 @@ body{
     opacity: 0.6;
 }
 
+.slider-imagen{
+    width:50%;
+}
+.carousel-caption h5,.carousel-caption p{
+    padding-bottom: 1%;
+}
+.carousel-caption h5{
+    font-size:50px;
+    font-family: 'Permanent Marker', cursive;
+}
+.carousel-caption p{
+    font-size:15px;
+}
+
 .datos-empresa{
     display: flex;
     justify-content: center;

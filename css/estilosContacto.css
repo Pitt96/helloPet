@@ -1,0 +1,86 @@
+
+/*------------Estilos de Contacto---------*/
+body{
+    background-image: url(../img/fondo_all.jpeg);
+    background-size: cover;
+}
+.container_form{
+    border-top: 1px solid red;
+    width:75%;
+    height: 700px;
+    margin:70px auto;
+    display: flex;
+    justify-content: center;
+    border-radius:10%;
+}
+
+.opaco_form{
+    border-top: 1px solid green;
+    position:absolute;
+    width:75%;
+    height: 700px;
+    background-color:black;
+    opacity:0.6;
+    border-radius:10%;
+}
+
+.container_form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_form .descripcion{
+    border-top: 1px solid red;
+    padding-top:50px;
+    margin-right: 85px;
+    padding-left:30px;
+    color: white;
+    z-index: 2;
+}
+.container_form .descripcion h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container_form .descripcion p{
+    margin-bottom: 10px;
+    font-size:20px;
+}
+
+
+.container_form article{
+    z-index: 2;
+}
+.container_form form{
+    padding-top: 115px;
+    padding-right: 30px;
+}
+
+form .info{
+    height: 35px;
+    border-radius:20%;
+}
+.form-info{
+    padding:3px;
+    margin-bottom:20px;
+    font-size:18px;
+    border-radius:10px;
+}
+
+form .boton{
+    height: 50px;
+    font-size:18px;
+    background-color:#26272B;
+    color: white;
+    font-weight: bold;
+    transition: 0.8s;
+    cursor: pointer;
+    border: none;
+    border-radius: 20%;
+}
+
+form .boton:hover{
+    background-color:#FEBD1B;
+    color: black;
+}
