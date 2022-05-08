@@ -56,18 +56,18 @@ header {
     background-color: bisque;
     transition: 0.5s;
     font-family: 'Dosis', sans-serif;
+    color: black;
     font-weight: 600;
-}
-
-.sesionCarrito .iniciarSesion:hover, .fa-user:hover{
-    background-color: black;
-    color: rgb(254,189,27);
 }
 
 .fa-user {
     font-size: 20px;
     margin-left: 10px;
-    color: black;
+}
+
+.sesionCarrito .iniciarSesion:hover{
+    background-color: black;
+    color: rgb(254,189,27);
 }
 
 .carrito{

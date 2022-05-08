@@ -97,3 +97,19 @@ body {
         transform: rotate(3deg);
     }
 }
+
+#movimientoLogo {
+    animation-name: animacionLogo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacionLogo {
+    0% {
+        transform: translate(-35px, 0);
+    }
+    100% {
+        transform: translate(35px, 0);
+    }
+}

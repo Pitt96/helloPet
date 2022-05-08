@@ -40,6 +40,7 @@ body {
     margin: 20px 0;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 3px 3px 10px;
 }
 
 .contenedorIntegrante {
@@ -60,6 +61,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: rgb(38,39,43);
+    color: white;
 }
 
 .informacionIntegrante p {
@@ -71,3 +74,18 @@ body {
     text-align: center;
 }
 
+#movimientoLogo {
+    animation-name: animacionLogo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacionLogo {
+    0% {
+        transform: translate(-35px, 0);
+    }
+    100% {
+        transform: translate(35px, 0);
+    }
+}
