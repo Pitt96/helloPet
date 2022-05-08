@@ -39,6 +39,7 @@ body {
     grid-template-columns: repeat(2, 50%);
     justify-items: center;
     align-items: center;
+    column-gap: 15px;
 }
 
 .marca {
@@ -46,13 +47,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 700px;
     height: 250px;
 }
 
 .contenedorMarca {
     /* border: 5px solid green; */
-    width: 350px;
+    width: 200px;
     height: 100px;
     border-radius: 3px;
     overflow: hidden;
@@ -69,7 +70,7 @@ body {
 
 .descripcionMarca {
     /* border: 2px solid blue; */
-    width: 400px;
+    width: 450px;
     height: 250px;
     display: flex;
     align-items: center;
