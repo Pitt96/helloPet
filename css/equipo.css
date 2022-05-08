@@ -1,0 +1,41 @@
+/* ESTILOS DEL TITULO */
+
+.seccionTituloEquipo {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-items: center;
+}
+
+.seccionTituloEquipo h1 {
+    font-size: 80px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* ESTILOS  PARA LA SECCION INTGRANTES*/
+
+.seccionIntegrantes {
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+}
+
+.integrante {
+    border: 1px solid green;
+    width: 700px;
+    height: 350px;
+}
+
+.contenedorIntegrante {
+    width: 300px;
+}
+
+.contenedorIntegrante img {
+    width: 100%;
+}
+
