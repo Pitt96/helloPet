@@ -59,7 +59,7 @@ header {
     font-weight: 600;
 }
 
-.sesionCarrito .iniciarSesion:hover {
+.sesionCarrito .iniciarSesion:hover, .fa-user:hover{
     background-color: black;
     color: rgb(254,189,27);
 }
@@ -70,7 +70,13 @@ header {
     color: black;
 }
 
+.carrito{
+    cursor: pointer;
+}
+
 .fa-cart-shopping {
     font-size: 25px;
     color: black;
 }
+
+
