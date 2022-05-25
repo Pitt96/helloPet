@@ -109,3 +109,11 @@ body {
 .nombreProducto p {
     font-size: 20px;
 }
+
+/* ESTILOS PARA CELULAR */
+
+@media all and (max-width : 768) {
+    header {
+        border: 1px solid red;
+    }
+}

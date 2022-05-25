@@ -231,7 +231,50 @@ header {
     margin-left: 80%;
 }
 
-
 .contenido .boton_comprar:hover{
     background-color:blue;
+}
+
+/* ESTILOS VERSION TABLET */
+
+@media all and (max-width:768px) {
+    header {
+        /* border: 1px solid red; */
+        width: 100%;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-around;
+    }
+
+    .navegacionheader {
+        /* border: 1px solid green; */
+        height: 95px;
+    }
+
+    .navegacionheader ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navegacionheader li {
+        margin-top: 10px;
+    }
+
+    .navegacionheader a {
+        font-size: 22px;
+    }
+
+    .contenedorBanner {
+        display: none;
+    }
+
+}
+
+/* ESTILOS PARA CELULAR */
+
+@media all and (max-width:320px) {
+    header {
+        height: 280px;
+    }
+
 }
