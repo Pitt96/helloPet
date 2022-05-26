@@ -84,5 +84,13 @@ hr{
     color: #33353d;
 }
 
+@media all and (max-width: 320px) {
+    .social-icons {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 
 

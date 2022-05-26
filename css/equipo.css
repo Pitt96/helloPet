@@ -89,3 +89,51 @@ body {
         transform: translate(35px, 0);
     }
 }
+
+@media all and (max-width:768px) {
+
+    .seccionTituloEquipo {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .seccionTituloEquipo h1 {
+        /* border: 1px solid red; */
+        font-size: 80px;
+    }
+}
+
+@media all and (max-width:320px) {
+
+    .contenedorImagen > img {
+        width: 180px;
+    }
+
+    .seccionTituloEquipo h1 {
+        font-size: 35px;
+    }
+
+    .integrante {
+        width: 250px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorIntegrante {
+        /* border: 1px solid red; */
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .informacionIntegrante {
+        height: 150px;
+        width: 100%;
+    }
+
+    .informacionIntegrante p {
+        font-size: 20px;
+    }
+
+}
